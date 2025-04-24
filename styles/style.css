@@ -1,0 +1,190 @@
+*{
+    font-family: Roboto;
+}
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 160px;
+    color: white;
+}
+
+.navbar > div {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: lightgray;
+}
+
+#endelement{
+    margin-right: 120px;
+}
+
+.hero{
+    
+    color: white;
+    padding-bottom: 60px;
+}
+
+.banner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#heropic{
+    width: 403px;
+    height: auto;
+    background-color: #1f2937;
+}
+
+.sec-1{
+    width: 25%;
+    margin-right: 150px;
+}
+
+.sec-1 > h1{
+    font-size: 43px;
+    font-weight: bolder;
+}
+
+.sec-1 > p{
+    font-size: 14px;
+    color: lightgray;
+}
+
+.btn1{
+    border:none;
+    text-decoration: none;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: darkblue;
+}
+
+.misc-info{
+    background-color: white;
+    padding-top: 20px;
+    margin-left: 0px;
+    padding-bottom: 100px;
+}
+
+.ill-placeholder{
+    width: 120px;
+    height: 120px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.infobox{
+    margin-right: 30px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext{
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    width: 130px;
+}
+
+.quote{
+    margin-top: -20px;
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 90px;
+}
+.quote > h2{
+    font-weight: 250;
+    font-style: italic;
+    padding-top: 90px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.call{
+    height: 190px;
+    background-color: white;
+    color: white;
+    padding-top: 80px;
+}
+
+.prompt{
+    
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    background-color: #3882f6;
+
+}
+
+
+.prompt-btn{
+    margin-top: 50%;
+    background-color: #3882f6;
+    border: white solid 2px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-div{
+    margin-left: 90px;
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.prompt-text > p{
+    margin-top:0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer{
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    color: white;
+    font-weight: 300;
+}
